@@ -1,0 +1,103 @@
+/* i want to learn how to do an image background, i have tried some ways but the way i wanted to do it was full image background without it going to way off page */
+
+* {
+  margin: 0;
+  padding:  0;
+}
+
+.wrapper  {
+  margin: 0 auto;
+  width:  1000px;
+}
+
+.box  {
+  background-size:  100%;
+  padding:  10px;
+  margin: 10px;
+  box-shadow: 0 0 5px 2px magenta;
+}
+/* .banner {
+  height: 300px;
+  background-image: url("img/Isabella_pano.jpg");
+  background-size:  cover;
+  background-position: center; */
+}
+.photo  {
+  background-position:  50%
+}
+
+.icon {
+  background-position:  0 100px;
+}
+
+body  {
+  background-color: DarkCyan;
+  color:  white;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Special Elite', cursive;
+}
+
+nav {
+  width:  100%;
+  height: 100px;
+  background-color: DarkCyan;
+}
+ul  {
+  margin-left:  0px;
+}
+
+li{
+  float:  center;
+}
+ul  li  {
+  list-style: none;
+  display:  inline-block;
+  float:  center;
+  line-height:  100px;
+}
+ul  li  a  {
+  display:  block;
+  text-decoration:  none;
+  font-size:  14px;
+  text-shadow: 2px 2px 2px #888;
+  font-family: 'Special Elite', cursive;
+  color:  #1e1e1e;
+  padding: 0 20px;
+
+}
+ul li a:hover {
+  background-color: magenta;
+  color: lightblue;
+}
+
+header  {
+  font-size:  24px;
+  color:  purple;
+  font-family: 'Special Elite', cursive;
+}
+
+p {
+  font-size:  20px;
+  line-height:  30px;
+  font-size:  20px;
+}
+
+p1, p2, p3, p4, p5, p6, p7, p8, p9  {
+  font-size:  20px;
+  line-height:  25px;
+  font-size:  14px;
+  text-align: justify;
+}
+
+h1  {
+  color:  purple;
+  font-size:  20px;
+  line-height:  25px;
+  font-size:  18px;
+}
+
+h2  {
+  color:  purple;
+  margin-bottom:  20px;
+}
