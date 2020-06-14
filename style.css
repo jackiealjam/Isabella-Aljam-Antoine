@@ -31,9 +31,10 @@
 }
 
 body  {
-  background-image: "img/Isabella_tack.jpg";
+  /* background-image: "img/Isabella_tack.jpg"; */
   /* background-color: #cccccc; */
-  /* background-color: lightpink; */
+  background-color: lightpink;
+  opacity:  0.5;
   color:  black;
   text-align: center;
   border-radius: 25px;
